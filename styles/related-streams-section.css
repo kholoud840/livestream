@@ -1,0 +1,83 @@
+.related-streams .section-title {
+    color: #ccc;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    font-size: 0.7em;
+}
+
+.related-streams .streams .image {
+    height: 150px;
+}
+
+.related-streams .streams .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stream .user img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    margin-left: 10px;
+    margin-top: -44px;
+    position: relative;
+    z-index: 1;
+}
+
+.stream .user img:hover {
+    opacity: 0.75;
+}
+
+.streams .stream-title {
+    color: #40424b;
+    font-size: 1em;
+    margin-left: 12px;
+}
+
+.stream {
+    position: relative;
+}
+
+.streams .stream-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.streams .stream-desc {
+    color: #999999;
+    margin-left: 12px;
+}
+
+@media (min-width: 600px) {
+    .related-streams .section-title {
+        padding: 10px 0px;
+    }
+
+    .stream {
+        width: 33.333%;
+        float: left;
+        padding-left: 30px;
+    }
+
+    .streams {
+        margin-left: -30px;
+    }
+
+    .streams::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .streams .stream-title, .streams .stream-desc {
+        margin-left: 0;
+    }
+
+}

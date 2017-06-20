@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 750px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/****layout***/
+.right-side {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .right-side {
+        display: block;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .right-side {
+        width: 20%;
+    }
+
+    .left-side {
+        width: 80%;
+    }
+
+    .left-side-wrapper {
+        border-right: 10px solid #dfdfdf;
+    }
+}

@@ -1,0 +1,71 @@
+@media (min-width: 600px) {
+    .right-side {
+        display: flex;
+        flex-direction: column;
+    }
+    .chat-sidebar .contacts li a{
+        display:  flex;
+
+    }
+    .chat-sidebar .contacts li{
+        padding-bottom: 10px;
+    }
+    .chat-sidebar .contacts li img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    .contact-details span{
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    .chat-sidebar .contacts .contact-details{
+        color: #40424b;
+        font-size: 0.8em;
+    }
+    .chat-list-wrapper {
+        padding: 30px;
+
+    }
+    .search-box{
+        background: #4be5ff ;
+        padding: 20px;
+        padding-top: 10px;
+    }
+    .search-box form lable,.send-message-box form lable{
+        display: none;
+    }
+    .search-box form input{
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 20px;
+        cursor: pointer;
+        outline: none;
+        background: url(../images/magnifying-glass.png) no-repeat 12px center;
+        background-position: center right 16px;
+        background-size: 20px 20px;
+
+    }
+    .send-message-box{
+        border-top: 1px solid #ccc;
+        background: #f1f1f1;
+        padding: 20px;
+        margin-top: auto;
+    }
+    .send-message-box form input{
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        padding: 20px;
+        cursor: pointer;
+        outline: none;
+        background: transparent;
+    }
+    .send-message-box input::placeholder{
+        color: #ccc;
+        font-size: 1.2em;
+    }
+}

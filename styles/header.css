@@ -1,0 +1,19 @@
+.header-wrapper {
+    background: #40424b;
+    text-align: center;
+}
+
+.header-wrapper a {
+    display: inline-block;
+}
+
+.header-wrapper .title {
+    color: #fff;
+    font-weight: 300;
+    padding: 20.2px 0;
+    font-size: 1.6em;
+}
+
+.header-wrapper .title span {
+    font-weight: 700;
+}

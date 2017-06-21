@@ -3,45 +3,51 @@
         display: flex;
         flex-direction: column;
     }
-    .chat-sidebar .contacts li a{
-        display:  flex;
 
-    }
-    .chat-sidebar .contacts li{
+    .chat-sidebar .contacts li {
         padding-bottom: 10px;
     }
-    .chat-sidebar .contacts li img{
+
+    .chat-sidebar .contacts li img {
         border-radius: 50%;
         width: 30px;
         height: 30px;
         object-fit: cover;
         margin-right: 10px;
+        float: left;
     }
-    .contact-details span{
+
+    .contact-details span {
         font-weight: 600;
         text-transform: capitalize;
     }
-    .chat-sidebar .contacts .contact-details{
+
+    .chat-sidebar .contacts .contact-details {
         color: #40424b;
         font-size: 0.8em;
+        overflow: hidden;
     }
+
     .chat-list-wrapper {
         padding: 30px;
 
     }
-    .search-box{
-        background: #4be5ff ;
-        padding: 20px;
+
+    .search-box {
+        background: #4be5ff;
+        padding: 32px;
         padding-top: 10px;
     }
-    .search-box form lable,.send-message-box form lable{
+
+    .search-box form lable, .send-message-box form lable {
         display: none;
     }
-    .search-box form input{
+
+    .search-box form input {
         width: 100%;
         border: none;
         border-bottom: 2px solid #fff;
-        padding-bottom: 20px;
+        padding-bottom: 8px;
         cursor: pointer;
         outline: none;
         background: url(../images/magnifying-glass.png) no-repeat 12px center;
@@ -49,13 +55,15 @@
         background-size: 20px 20px;
 
     }
-    .send-message-box{
+
+    .send-message-box {
         border-top: 1px solid #ccc;
         background: #f1f1f1;
         padding: 20px;
         margin-top: auto;
     }
-    .send-message-box form input{
+
+    .send-message-box form input {
         width: 100%;
         border: none;
         border-bottom: 2px solid #ccc;
@@ -64,7 +72,8 @@
         outline: none;
         background: transparent;
     }
-    .send-message-box input::placeholder{
+
+    .send-message-box input::placeholder {
         color: #ccc;
         font-size: 1.2em;
     }

@@ -1,4 +1,6 @@
-
+.video-wrapper{
+    padding: 0 10px;
+}
 .stream-section .title {
     padding: 10px 12px;
     text-transform: capitalize;
